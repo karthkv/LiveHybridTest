@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Create Account Suite]">
+  <test name="Create Account Test(failed)">
+    <classes>
+      <class name="com.selenium.datafromexcel.modules.account.CreateAccountDependency">
+        <methods>
+          <include name="testCaseCheck"/>
+          <include name="runBeforeMethod"/>
+          <include name="runAfterMethod"/>
+          <include name="releaseResources"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.CreateAccountDependency -->
+      <class name="com.selenium.datafromexcel.modules.account.AccountCreation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testRunCheckup"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.AccountCreation -->
+      <class name="com.selenium.datafromexcel.modules.account.GlobalCreateAccount">
+        <methods>
+          <include name="testCaseCheck"/>
+          <include name="runBeforeMethod"/>
+          <include name="createAccountValidCredentials"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.GlobalCreateAccount -->
+    </classes>
+  </test> <!-- Create Account Test(failed) -->
+  <test name="Create Account Test With Dependency(failed)">
+    <classes>
+      <class name="com.selenium.datafromexcel.modules.account.AccountCreation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testRunCheckup"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.AccountCreation -->
+      <class name="com.selenium.datafromexcel.modules.account.CreateAccountDependency">
+        <methods>
+          <include name="testCaseCheck"/>
+          <include name="runBeforeMethod"/>
+          <include name="runAfterMethod"/>
+          <include name="releaseResources"/>
+          <include name="createAccountValidCredentials" invocation-numbers="1 2"/>
+          <include name="prepareAccountCreation"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.CreateAccountDependency -->
+      <class name="com.selenium.datafromexcel.modules.account.GlobalCreateAccount">
+        <methods>
+          <include name="testCaseCheck"/>
+          <include name="runBeforeMethod"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.GlobalCreateAccount -->
+    </classes>
+  </test> <!-- Create Account Test With Dependency(failed) -->
+  <test name="Create Account with Different Data Set(failed)">
+    <classes>
+      <class name="com.selenium.datafromexcel.modules.account.CreateAccountDependency">
+        <methods>
+          <include name="testCaseCheck"/>
+          <include name="runBeforeMethod"/>
+          <include name="runAfterMethod"/>
+          <include name="releaseResources"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.CreateAccountDependency -->
+      <class name="com.selenium.datafromexcel.modules.account.AccountCreation">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="testRunCheckup"/>
+          <include name="checkSuiteSkip"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.AccountCreation -->
+      <class name="com.selenium.datafromexcel.modules.account.GlobalCreateAccount">
+        <methods>
+          <include name="testCaseCheck"/>
+          <include name="runBeforeMethod"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.account.GlobalCreateAccount -->
+    </classes>
+  </test> <!-- Create Account with Different Data Set(failed) -->
+</suite> <!-- Failed suite [Create Account Suite] -->

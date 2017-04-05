@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Print Suite">
+
+<test name="Verify User details" >
+
+    <classes>      
+       <class name="com.selenium.datafromexcel.modules.print.VerifyUserDetails" >    </class> <!-- Give Absolute class path -->        
+    </classes>
+      
+</test>
+
+</suite>
+

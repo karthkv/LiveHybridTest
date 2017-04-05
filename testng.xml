@@ -1,0 +1,18 @@
+
+
+<suite name="My Project Suite">
+ 
+  <suite-files>
+  
+   <suite-file path="./Create Account.xml"/>
+   
+  </suite-files>
+  
+  <suite-files>
+  
+   <suite-file path="./Print.xml"/>
+   
+  </suite-files>
+  
+  
+</suite>

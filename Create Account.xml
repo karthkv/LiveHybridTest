@@ -1,0 +1,43 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Create Account Suite" >
+
+<test name="Create Account Test" >
+
+    <classes>
+    <!-- ui , b.logic , service , d.b validation -->
+    
+   <!--       <class name="com.selenium.day23.modules.account.CreateAccount"></class>  -->  <!-- Give Absolute class path -->
+      
+      
+       <class name="com.selenium.datafromexcel.modules.account.GlobalCreateAccount" >    </class> <!-- Give Absolute class path -->        
+        
+        <!-- Methods execution control  -->
+            
+    </classes>
+      
+</test>
+
+<test name="Create Account Test With Dependency">
+
+    <classes>   
+       <class name="com.selenium.datafromexcel.modules.account.CreateAccountDependency"></class>      
+   </classes>
+        
+</test>
+
+<test name="Create Account with Different Data Set">
+
+    <classes>   
+       <class name="com.selenium.datafromexcel.modules.account.AccountCreation"></class>      
+   </classes>
+        
+</test>
+
+
+
+
+
+</suite>
+

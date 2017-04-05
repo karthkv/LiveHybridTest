@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Print Suite]">
+  <test name="Verify User details(failed)">
+    <classes>
+      <class name="com.selenium.datafromexcel.modules.print.VerifyUserDetails">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="performSign"/>
+          <include name="createAccount"/>
+        </methods>
+      </class> <!-- com.selenium.datafromexcel.modules.print.VerifyUserDetails -->
+    </classes>
+  </test> <!-- Verify User details(failed) -->
+</suite> <!-- Failed suite [Print Suite] -->

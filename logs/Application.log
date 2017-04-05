@@ -1,0 +1,8 @@
+15/04/2015 08:41:42 devpinoyLogger Loaded Property files successfully
+15/04/2015 08:41:42 devpinoyLogger Loading XLS Files
+15/04/2015 08:41:45 devpinoyLogger Loaded XLS Files successfully
+15/04/2015 08:41:45 devpinoyLogger Checking Runmode of Create Account
+15/04/2015 08:43:47 devpinoyLogger Executing createAccountValidCredentials
+15/04/2015 08:43:47 devpinoyLogger Giri -- Babu -- Giri@target.com  -- Abcd1234
+15/04/2015 08:48:44 devpinoyLogger Checking Runmode of Print
+15/04/2015 08:48:44 devpinoyLogger Skipped Create Account Suite as the runmode was set to NO
